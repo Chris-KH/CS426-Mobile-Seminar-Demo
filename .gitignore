@@ -1,0 +1,23 @@
+# Build artifacts
+/build/
+.gradle/
+*.iml
+local.properties
+
+# IDE-specific files (Android Studio)
+.idea/
+
+# APKs and AABs
+*.apk
+*.aab
+
+# Logs and temporary files
+*.log
+captures/
+
+# Keystore files (uncomment if you don't want to track them)
+# *.keystore
+
+# Operating System files
+.DS_Store
+Thumbs.db
