@@ -99,7 +99,7 @@ class MainActivity : ComponentActivity() {
                         startDestination = "optimized",
                         modifier = Modifier.padding(innerPadding)
                     ) {
-                        val itemSize = 200
+                        val itemSize = 100
                         composable("optimized") { OptimizedScreen(itemSize) }
                         composable("laggy") { LaggyScreen(itemSize) }
                     }
